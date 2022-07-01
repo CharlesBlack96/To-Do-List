@@ -1,29 +1,36 @@
+import React, { useState } from "react";
+
+const List = () => {
+  const [todo, setTodo] = useState();
+
+  return <div></div>;
+};
+
 [
-	{ 
-	  id: 23
-      todo: "wake up 6am"
+  {
+    id: 23,
+    todo: "wake up 6am",
+  },
 
-	}, 
+  {
+    id: 12,
+    todo: "brush teeth",
+  },
 
-	{
-		id: 12,
-		todo: "brush teeth"
-	
-	},
+  {
+    id: 75,
+    todo: "feed cats",
+  },
 
-    {
-        id:75
-        todo: "feed cats"
-    },
+  {
+    id: 92,
+    todo: "make smoothie",
+  },
 
-    {
-        id:92
-        todo: "make smoothie"
-    },
+  {
+    id: 67,
+    todo: "make todo list for the day",
+  },
+];
 
-    {
-        id:67
-        todo: "make todo list for the day"
-    }
-
-]
+export { List };
